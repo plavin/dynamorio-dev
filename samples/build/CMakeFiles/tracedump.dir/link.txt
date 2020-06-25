@@ -1,0 +1,1 @@
+/usr/bin/cc    -rdynamic -Wl,-rpath='$ORIGIN/'  -O2  -DDYNAMORIO_STANDALONE -DX86_64 -DLINUX  -Wl,--hash-style=both CMakeFiles/tracedump.dir/tracedump.c.o  -o bin/tracedump /home/patlav01/local/dynamorio/DynamoRIO-Linux-8.0.0-1/lib64/debug/libdynamorio.so 

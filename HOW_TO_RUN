@@ -1,0 +1,14 @@
+# Building
+
+cd $DRROOT/samples/build
+
+make
+
+# Running
+
+cd $DRROOT/bin64
+
+./drrun -c ../samples/build/bin/libmemtrace_x86_text.so -- ~/local/dr-test/test
+
+# Log file located at
+samples/build/bin/memtrace.test.xxxxx.xxxx.log
